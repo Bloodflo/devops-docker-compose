@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+.env
+
+# Docker
+*.log
+.docker/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VirtualBox (не загружать файлы ВМ!)
+*.vbox
+*.vdi
+*.vmdk
+*.ova
+*.ovf
+Snapshots/
+VBox.log
